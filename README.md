@@ -1,14 +1,13 @@
-## MiniDLNA for hass.io
+## miniDLNA for home-assistant
 ## Description
 
-This addon provide a container for hass.io with MiniDLNA
+This addon provide a container for home-assistant with miniDLNA. Based on work from Drize.
 
 ## Installation
 
-Copy the url of this addon into "Supervisor" -> "Addon Store" -> "Add New repository URL" after install it. 
+Copy the url of this addon into "Supervisor" -> "Addon Store" -> "Add New repository URL". Then search for minidlna, select the addon and install it. 
 
-
-## Configuration 
+## Example configuration 
 ```yaml
 media_dir: V,/media;/share
 options: -d
